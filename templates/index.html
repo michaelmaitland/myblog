@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  This is my blog made with Zola.
-</h1>
-<p>Click <a href="{{ get_url(path='@/blog/_index.md') }}">here</a> to see my posts.</p>
+<h1 class="title">Michael Maitland's Homepage</h1>
+<h2>About Me</h2>
+<p> My interests are in compilers and computer architecture.</p>
+<p>I currently work as a Compiler engineer at SiFive, focusing primarily on the RISCV backend, the llvm-mca performance analysis tool, and the loop vectorizer.</p>
+<p>Click <a href="{{ get_url(path='@/blog/_index.md') }}">here</a> to see my blog posts.</p>
 {% endblock content %}

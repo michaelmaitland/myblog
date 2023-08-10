@@ -1,5 +1,5 @@
 +++
-title = "My First Post: What to expect"
+title = "My First Post: What to Expect"
 date = 2023-08-09
 +++
 

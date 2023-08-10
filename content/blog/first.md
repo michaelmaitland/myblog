@@ -1,6 +1,6 @@
 +++
-title = "My first post"
-date = 2019-11-27
+title = "My First Post: What to expect"
+date = 2023-08-09
 +++
 
 This is my first blog post. The purpose of this blog is to demonstrate that I've correctly configured the initial version of the blog, using [Zola](https://www.getzola.org), and to make sure that it works when deployed using GitHub actions from the repo that can be found [here](https://github.com/michaelmaitland/myblog).

@@ -8,4 +8,16 @@
 <!-- TODO: expand into "By PersonA and Person B" or "By PersonA, PersonB, and PersonC" -->
 <p class="authors">By {{ page.authors }}</p>
 {{ page.content | safe }}
+
+<h2 class="title">Comments or Questions</h1>
+<p>Do you have a comment a question you'd like to leave? I'll get back to you ASAP.</p>
+<form action="https://formspree.io/f/xaygevbk" method="POST">
+  <label>Your email:<br>
+    <input type="email" name="email">
+  </label><br>
+  <label>Your message:<br>
+    <textarea name="message"></textarea>
+  </label><br>
+  <button type="submit">Send</button>
+</form>
 {% endblock content %}

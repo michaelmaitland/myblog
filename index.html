@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Maitland</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 680px;
+      margin: 60px auto;
+      padding: 0 20px;
+      color: #222;
+      line-height: 1.6;
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 0.2em; }
+    h2 { font-size: 1.2rem; margin-top: 2em; }
+    label { display: block; margin-top: 1em; font-weight: 500; }
+    input, textarea {
+      width: 100%;
+      margin-top: 4px;
+      padding: 8px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 12px;
+      padding: 8px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      border: 1px solid #555;
+      border-radius: 4px;
+      background: #fff;
+    }
+    button:hover { background: #f0f0f0; }
+    .download { margin-top: 1em; }
+  </style>
+</head>
+<body>
+  <h1>Michael Maitland's Homepage</h1>
+
+  <h2>About Me</h2>
+  <p>
+    My interests are in compilers and computer architecture. I currently work at Meta
+    on a backend compiler for an AI Accelerator. I used to work at SiFive focusing
+    primarily on the RISC-V backend, the llvm-mca performance analysis tool, and the
+    Loop Vectorizer.
+  </p>
+
+  <h2>Send A Message</h2>
+  <p>If you'd like to get in contact, please send a message.</p>
+  <form action="https://formspree.io/f/xaygevbk" method="POST">
+    <label>
+      Full Name
+      <input type="text" name="full-name" placeholder="First and Last">
+    </label>
+    <label>
+      Email
+      <input type="email" name="email" placeholder="email@example.com" required>
+    </label>
+    <label>
+      Message
+      <textarea name="message" rows="5" placeholder="Write your message here." required></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+
+  <h2>Download LSD</h2>
+  <p>LittleSlowDowner — a macOS app for practicing music at reduced speed.</p>
+  <div class="download">
+    <a href="/LittleSlowDowner-v0.1.zip"><button>Download LittleSlowDowner v0.1</button></a>
+  </div>
+</body>
+</html>
